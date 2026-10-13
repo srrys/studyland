@@ -1,8 +1,16 @@
 <!DOCTYPE html>
 <head>
-  <style></style>
-  <script></script>
+  <style>
+    .herro {
+      display: block;
+    }
+  </style>
+  <script>
+    function goaway() {
+      document.getElementById("landimg").style.display = "none";
+    }
+  </script>
 </head>
 <body>
-  <img src="studenthelp.png" style="width: 100%; height: 100%;">
+  <img class="herro" id="landimg" src="studenthelp.png" style="width: 100%; height: 100%;" onclick="goaway()">
 </body>
